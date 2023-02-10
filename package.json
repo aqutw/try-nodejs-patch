@@ -1,0 +1,25 @@
+{
+  "name": "try-nodejs-patch",
+  "version": "1.0.0",
+  "description": "https://dev.to/zhnedyalkow/the-easiest-way-to-patch-your-npm-package-4ece",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "patch-package",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqutw/try-nodejs-patch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aqutw/try-nodejs-patch/issues"
+  },
+  "homepage": "https://github.com/aqutw/try-nodejs-patch#readme",
+  "devDependencies": {
+    "patch-package": "^6.5.1",
+    "react-redux": "^8.0.5"
+  }
+}

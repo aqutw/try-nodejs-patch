@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-redux/src/.index.ts.swp b/node_modules/react-redux/src/.index.ts.swp
+new file mode 100644
+index 0000000..3b78391
+Binary files /dev/null and b/node_modules/react-redux/src/.index.ts.swp differ
+diff --git a/node_modules/react-redux/src/index.ts b/node_modules/react-redux/src/index.ts
+index 3f04e45..43e705d 100644
+--- a/node_modules/react-redux/src/index.ts
++++ b/node_modules/react-redux/src/index.ts
+@@ -14,6 +14,8 @@ import { initializeConnect } from './components/connect'
+ initializeUseSelector(useSyncExternalStoreWithSelector)
+ initializeConnect(useSyncExternalStore)
+ 
++console.log('test patch here');
++
+ // Enable batched updates in our subscriptions for use
+ // with standard React renderers (ReactDOM, React Native)
+ setBatch(batch)
